@@ -1,0 +1,87 @@
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>	
+<body>
+<script src = "http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
+<script>
+var svg = d3.select("body")
+	.append("svg")
+	.attr("width", 600)
+	.attr("height", 600)
+
+for(var i = 0; i< 500; i++){
+	hi(1)
+	hi(2)
+	hi(3)
+	hi(4)
+	hi(5)
+}
+
+d3.selectAll(".hi1")
+	.transition()
+	.duration(20000)
+	.attr("x", 100)
+	.attr("y", function(){
+		var thisY = d3.select(this).attr("y")
+		if( thisY < 100){return 100}
+		else if(thisY > 300) {return 300}
+		else{ return thisY}
+	});	
+
+d3.selectAll(".hi2")
+	.transition()
+	.duration(20000)
+	.attr("y", 200)
+	.attr("x", function(){
+		var thisX = d3.select(this).attr("x")
+		if( thisX < 100){return 100}
+		else if(thisX > 200) {return 200}
+		else{ return thisX}
+		});
+
+d3.selectAll(".hi3")
+	.transition()
+	.duration(20000)
+	.attr("x", 200)
+	.attr("y", function(){
+		var thisY = d3.select(this).attr("y")
+		if( thisY < 100){return 100}
+		else if(thisY > 300) {return 300}
+		else{ return thisY}
+	});
+
+d3.selectAll(".hi4")
+	.transition()
+	.duration(20000)
+	.attr("x", 300)
+	.attr("y", function(){
+		var thisY = d3.select(this).attr("y")
+		if( thisY < 200){return 200}
+		else if(thisY > 300) {return 300}
+		else{ return thisY}
+	});	
+
+d3.selectAll(".hi5")
+	.transition()
+	.duration(20000)
+	.attr("x", 300)
+	.attr("y", 180)	
+
+function hi(hi){
+	var x = Math.random() *600;
+	var y = Math.random() * 600;
+	var r = parseInt(Math.random() *255);
+	var g = parseInt(Math.random() *255);
+	var b = parseInt(Math.random() *255);
+	svg.append("text")
+		.attr("class", "hi" + hi)
+		.style("fill", function(){ return "rgb(" + r + "," + g + "," + b + ")"})
+		.style("font", "12pt Lato")
+		.attr("x", x)
+		.attr("y", y)
+		.text("hi")
+}
+</script>
+</body>
+</html>
