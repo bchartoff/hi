@@ -1,0 +1,380 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "analytics",
+   "children": [
+    {
+     "name": "cluster",
+     "children": [
+      {"name": "hi", "size": 3938},
+      {"name": "hi", "size": 3812},
+      {"name": "hi", "size": 6714},
+      {"name": "hi", "size": 743}
+     ]
+    },
+    {
+     "name": "graph",
+     "children": [
+      {"name": "hi", "size": 3534},
+      {"name": "hi", "size": 5731},
+      {"name": "hi", "size": 7840},
+      {"name": "hi", "size": 5914},
+      {"name": "hi", "size": 3416}
+     ]
+    },
+    {
+     "name": "optimization",
+     "children": [
+      {"name": "hi", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "animate",
+   "children": [
+    {"name": "hi", "size": 17010},
+    {"name": "hi", "size": 5842},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "hi", "size": 1983},
+      {"name": "hi", "size": 2047},
+      {"name": "hi", "size": 1375},
+      {"name": "hi", "size": 8746},
+      {"name": "hi", "size": 2202},
+      {"name": "hi", "size": 1382},
+      {"name": "hi", "size": 1629},
+      {"name": "hi", "size": 1675},
+      {"name": "hi", "size": 2042}
+     ]
+    },
+    {"name": "hi", "size": 1041},
+    {"name": "hi", "size": 5176},
+    {"name": "hi", "size": 449},
+    {"name": "hi", "size": 5593},
+    {"name": "hi", "size": 5534},
+    {"name": "hi", "size": 9201},
+    {"name": "hi", "size": 19975},
+    {"name": "hi", "size": 1116},
+    {"name": "hi", "size": 6006}
+   ]
+  },
+  {
+   "name": "data",
+   "children": [
+    {
+     "name": "converters",
+     "children": [
+      {"name": "hi", "size": 721},
+      {"name": "hi", "size": 4294},
+      {"name": "hi", "size": 9800},
+      {"name": "hi", "size": 1314},
+      {"name": "hi", "size": 2220}
+     ]
+    },
+    {"name": "hi", "size": 1759},
+    {"name": "hi", "size": 2165},
+    {"name": "hi", "size": 586},
+    {"name": "hi", "size": 3331},
+    {"name": "hi", "size": 772},
+    {"name": "hi", "size": 3322}
+   ]
+  },
+  {
+   "name": "display",
+   "children": [
+    {"name": "hi", "size": 8833},
+    {"name": "hi", "size": 1732},
+    {"name": "hi", "size": 3623},
+    {"name": "hi", "size": 10066}
+   ]
+  },
+  {
+   "name": "flex",
+   "children": [
+    {"name": "hi", "size": 4116}
+   ]
+  },
+  {
+   "name": "physics",
+   "children": [
+    {"name": "hi", "size": 1082},
+    {"name": "hi", "size": 1336},
+    {"name": "hi", "size": 319},
+    {"name": "hi", "size": 10498},
+    {"name": "hi", "size": 2822},
+    {"name": "hi", "size": 9983},
+    {"name": "hi", "size": 2213},
+    {"name": "hi", "size": 1681}
+   ]
+  },
+  {
+   "name": "query",
+   "children": [
+    {"name": "hi", "size": 1616},
+    {"name": "hi", "size": 1027},
+    {"name": "hi", "size": 3891},
+    {"name": "hi", "size": 891},
+    {"name": "hi", "size": 2893},
+    {"name": "hi", "size": 5103},
+    {"name": "hi", "size": 3677},
+    {"name": "hi", "size": 781},
+    {"name": "hi", "size": 4141},
+    {"name": "hi", "size": 933},
+    {"name": "hi", "size": 5130},
+    {"name": "hi", "size": 3617},
+    {"name": "hi", "size": 3240},
+    {"name": "hi", "size": 2732},
+    {"name": "hi", "size": 2039},
+    {"name": "hi", "size": 1214},
+    {"name": "hi", "size": 3748},
+    {"name": "hi", "size": 843},
+    {
+     "name": "methods",
+     "children": [
+      {"name": "hi", "size": 593},
+      {"name": "hi", "size": 330},
+      {"name": "hi", "size": 287},
+      {"name": "hi", "size": 277},
+      {"name": "hi", "size": 292},
+      {"name": "hi", "size": 595},
+      {"name": "hi", "size": 594},
+      {"name": "hi", "size": 460},
+      {"name": "hi", "size": 603},
+      {"name": "hi", "size": 625},
+      {"name": "hi", "size": 748},
+      {"name": "hi", "size": 461},
+      {"name": "hi", "size": 597},
+      {"name": "hi", "size": 619},
+      {"name": "hi", "size": 283},
+      {"name": "hi", "size": 283},
+      {"name": "hi", "size": 591},
+      {"name": "hi", "size": 603},
+      {"name": "hi", "size": 599},
+      {"name": "hi", "size": 386},
+      {"name": "hi", "size": 323},
+      {"name": "hi", "size": 307},
+      {"name": "hi", "size": 772},
+      {"name": "hi", "size": 296},
+      {"name": "hi", "size": 363},
+      {"name": "hi", "size": 600},
+      {"name": "hi", "size": 280},
+      {"name": "hi", "size": 307},
+      {"name": "hi", "size": 335},
+      {"name": "hi", "size": 299},
+      {"name": "hi", "size": 354},
+      {"name": "hi", "size": 264}
+     ]
+    },
+    {"name": "hi", "size": 843},
+    {"name": "hi", "size": 1554},
+    {"name": "hi", "size": 970},
+    {"name": "hi", "size": 13896},
+    {"name": "hi", "size": 1594},
+    {"name": "hi", "size": 4130},
+    {"name": "hi", "size": 791},
+    {"name": "hi", "size": 1124},
+    {"name": "hi", "size": 1876},
+    {"name": "hi", "size": 1101}
+   ]
+  },
+  {
+   "name": "scale",
+   "children": [
+    {"name": "hi", "size": 2105},
+    {"name": "hi", "size": 1316},
+    {"name": "hi", "size": 3151},
+    {"name": "hi", "size": 3770},
+    {"name": "hi", "size": 2435},
+    {"name": "hi", "size": 4839},
+    {"name": "hi", "size": 1756},
+    {"name": "hi", "size": 4268},
+    {"name": "hi", "size": 1821},
+    {"name": "hi", "size": 5833}
+   ]
+  },
+  {
+   "name": "util",
+   "children": [
+    {"name": "hi", "size": 8258},
+    {"name": "hi", "size": 10001},
+    {"name": "hi", "size": 8217},
+    {"name": "hi", "size": 12555},
+    {"name": "hi", "size": 2324},
+    {"name": "hi", "size": 10993},
+    {
+     "name": "heap",
+     "children": [
+      {"name": "hi", "size": 9354},
+      {"name": "hi", "size": 1233}
+     ]
+    },
+    {"name": "hi", "size": 335},
+    {"name": "hi", "size": 383},
+    {"name": "hi", "size": 874},
+    {
+     "name": "math",
+     "children": [
+      {"name": "hi", "size": 3165},
+      {"name": "hi", "size": 2815},
+      {"name": "hi", "size": 3366}
+     ]
+    },
+    {"name": "hi", "size": 17705},
+    {"name": "hi", "size": 1486},
+    {
+     "name": "palette",
+     "children": [
+      {"name": "hi", "size": 6367},
+      {"name": "hi", "size": 1229},
+      {"name": "hi", "size": 2059},
+      {"name": "hi", "size": 2291}
+     ]
+    },
+    {"name": "hi", "size": 5559},
+    {"name": "hi", "size": 19118},
+    {"name": "hi", "size": 6887},
+    {"name": "hi", "size": 6557},
+    {"name": "hi", "size": 22026}
+   ]
+  },
+  {
+   "name": "vis",
+   "children": [
+    {
+     "name": "axis",
+     "children": [
+      {"name": "hi", "size": 1302},
+      {"name": "hi", "size": 24593},
+      {"name": "hi", "size": 652},
+      {"name": "hi", "size": 636},
+      {"name": "hi", "size": 6703}
+     ]
+    },
+    {
+     "name": "controls",
+     "children": [
+      {"name": "hi", "size": 2138},
+      {"name": "hi", "size": 3824},
+      {"name": "hi", "size": 1353},
+      {"name": "hi", "size": 4665},
+      {"name": "hi", "size": 2649},
+      {"name": "hi", "size": 2832},
+      {"name": "hi", "size": 4896},
+      {"name": "hi", "size": 763},
+      {"name": "hi", "size": 5222},
+      {"name": "hi", "size": 7862},
+      {"name": "hi", "size": 8435}
+     ]
+    },
+    {
+     "name": "data",
+     "children": [
+      {"name": "hi", "size": 20544},
+      {"name": "hi", "size": 19788},
+      {"name": "hi", "size": 10349},
+      {"name": "hi", "size": 3301},
+      {"name": "hi", "size": 19382},
+      {
+       "name": "render",
+       "children": [
+        {"name": "hi", "size": 698},
+        {"name": "hi", "size": 5569},
+        {"name": "hi", "size": 353},
+        {"name": "hi", "size": 2247}
+       ]
+      },
+      {"name": "hi", "size": 11275},
+      {"name": "hi", "size": 7147},
+      {"name": "hi", "size": 9930}
+     ]
+    },
+    {
+     "name": "events",
+     "children": [
+      {"name": "hi", "size": 2313},
+      {"name": "hi", "size": 1880},
+      {"name": "hi", "size": 1701},
+      {"name": "hi", "size": 1117}
+     ]
+    },
+    {
+     "name": "legend",
+     "children": [
+      {"name": "hi", "size": 20859},
+      {"name": "hi", "size": 4614},
+      {"name": "hi", "size": 10530}
+     ]
+    },
+    {
+     "name": "operator",
+     "children": [
+      {
+       "name": "distortion",
+       "children": [
+        {"name": "hi", "size": 4461},
+        {"name": "hi", "size": 6314},
+        {"name": "hi", "size": 3444}
+       ]
+      },
+      {
+       "name": "encoder",
+       "children": [
+        {"name": "hi", "size": 3179},
+        {"name": "hi", "size": 4060},
+        {"name": "hi", "size": 4138},
+        {"name": "hi", "size": 1690},
+        {"name": "hi", "size": 1830}
+       ]
+      },
+      {
+       "name": "filter",
+       "children": [
+        {"name": "hi", "size": 5219},
+        {"name": "hi", "size": 3165},
+        {"name": "hi", "size": 3509}
+       ]
+      },
+      {"name": "hi", "size": 1286},
+      {
+       "name": "label",
+       "children": [
+        {"name": "hi", "size": 9956},
+        {"name": "hi", "size": 3899},
+        {"name": "hi", "size": 3202}
+       ]
+      },
+      {
+       "name": "layout",
+       "children": [
+        {"name": "hi", "size": 6725},
+        {"name": "hi", "size": 3727},
+        {"name": "hi", "size": 9317},
+        {"name": "hi", "size": 12003},
+        {"name": "hi", "size": 4853},
+        {"name": "hi", "size": 8411},
+        {"name": "hi", "size": 4864},
+        {"name": "hi", "size": 3174},
+        {"name": "hi", "size": 7881},
+        {"name": "hi", "size": 12870},
+        {"name": "hi", "size": 2728},
+        {"name": "hi", "size": 12348},
+        {"name": "hi", "size": 870},
+        {"name": "hi", "size": 9121},
+        {"name": "hi", "size": 9191}
+       ]
+      },
+      {"name": "hi", "size": 2490},
+      {"name": "hi", "size": 5248},
+      {"name": "hi", "size": 4190},
+      {"name": "hi", "size": 2581},
+      {"name": "hi", "size": 2023}
+     ]
+    },
+    {"name": "hi", "size": 16540}
+   ]
+  }
+ ]
+}
