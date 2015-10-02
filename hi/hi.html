@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link href='https://fonts.googleapis.com/css?family=Oswald:700,400' rel='stylesheet' type='text/css'>
+<style>
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  background-color: #ffcb05; 
+}
+
+.hi{
+  color: #00274c;
+  font-size: 80px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  text-align: center;
+}
+.hihi{
+  font-size: 0px;
+}
+
+</style>
+<body>
+<div class = "hi">H<span class = "hihi">APPY B</span>I<span class = "hihi">RTHDAY</span></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script>
+d3.selectAll(".hihi")
+  .transition()
+  .delay(1000)
+  .duration(8000)
+  .style("font-size","80px")
+
+</script>
+</body>
