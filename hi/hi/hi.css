@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	background: #00274c;
+}
+#hi{
+	width: 100%;
+	height: 100%;
+}
+line.hi{
+	stroke-width: 1px;
+}
