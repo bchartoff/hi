@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+#hihi, #hihihi{
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+#hihihi{
+	z-index: 0;
+	background-color: #B9121B;
+
+}
+#hihi{
+	z-index: 1;
+  -webkit-animation: HI 8s infinite; /* Safari 4+ */
+  -moz-animation:    HI 8s infinite; /* Fx 5+ */
+  -o-animation:      HI 8s infinite; /* Opera 12+ */
+  animation:         HI 8s infinite; /* IE 10+, Fx 29+ */
+
+}
+@-webkit-keyframes HI {
+  0%   { opacity: 1; }
+  10%   { opacity: 1; }
+  50%  { opacity: 0;}
+  90% { opacity: 1; }
+  100% { opacity: 1; }
+}
+</style>
+</head>
+<body>
+<img id = "hihi" src = "hihi.png"/>
+<img id = "hihihi" src = "hihihi.png"/>
+</body>
+</html>
