@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="css/custom-juxtapose.css">
+<script type="text/javascript" src="js/vendor/pym.min.js"></script>
+
+<script src="js/vendor/juxtapose.js"></script>
+<script src="js/vendor/jquery.min.js"></script>
+
+<div id="foo"></div>
+<script>
+function drawGraphic(container_width){
+	$("#foo").empty()
+
+	window.setTimeout(function(){
+	slider = new juxtapose.JXSlider('#foo',
+	    [
+	        {
+	            src: 'night.png',
+	        },
+	        {
+	            src: 'day.png',
+	        }
+	    ],
+	    {
+	        animate: true,
+	        showLabels: true,
+	        showCredits: false,
+	        startingPosition: "50%",
+	        makeResponsive: false
+	    });
+}, 1000)
+
+	$("body").css("height", container_width + "px")
+}
+
+
+
+var pymChild = new pym.Child({renderCallback: drawGraphic});
+</script>
