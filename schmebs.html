@@ -1,0 +1,40 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
+
+<style>
+#gebs{
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+}
+</style>
+</head>
+<body>
+<div id = "gebs">Gebs </div>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+var i = 1;
+var start = ["schm","g","f","k","d","b","ch","n","phl","kr","st","w","m","schw","chab","gl","l","d","p","kw","th","poob","n","cash","gr","r","wr","b","g","schm","sl","s","gab","bag","pl","fl","h","j","k","t","v","w","z","x"]
+
+function myLoop () {
+   setTimeout(function () {
+   	  var x = Math.floor(Math.random() * start.length-1) + 1
+   	  console.log(x)
+      t = d3.select("#gebs").text()
+      d3.select("#gebs").text(t + " " + start[x] +"ebs")
+      i++;
+      if (i > 0) {
+         myLoop();
+      }
+   }, 100)
+}
+
+myLoop();
+
+</script>
+</body>
+</html>
